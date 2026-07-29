@@ -1,0 +1,13 @@
+{
+  "id": "evt-006",
+  "title": "Atelier régression en hypnose",
+  "category": "atelier",
+  "date_start": "2026-09-12T10:00:00+02:00",
+  "date_end": "2026-09-12T13:00:00+02:00",
+  "lat": 47.2184,
+  "lng": -1.5536,
+  "city": "Nantes",
+  "description": "Explorez vos mémoires par la régression hypnotique dans un cadre sécurisé et bienveillant.",
+  "link": "https://example.com/atelier-nantes",
+  "status": "published"
+}

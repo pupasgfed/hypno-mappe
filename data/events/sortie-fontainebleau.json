@@ -1,0 +1,13 @@
+{
+  "id": "evt-002",
+  "title": "Sortie nature en transe - Forêt de Fontainebleau",
+  "category": "sortie",
+  "date_start": "2026-08-22T09:00:00+02:00",
+  "date_end": "2026-08-22T16:00:00+02:00",
+  "lat": 48.4047,
+  "lng": 2.7019,
+  "city": "Fontainebleau",
+  "description": "Une journée immersive en forêt pour expérimenter la transe hypnotique en pleine nature.",
+  "link": "https://example.com/sortie-fontainebleau",
+  "status": "published"
+}

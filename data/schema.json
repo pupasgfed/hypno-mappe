@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Événement hypnose",
+  "description": "Schéma de validation d'un fichier événement individuel dans /data/events/",
+  "type": "object",
+  "required": ["id", "title", "category", "date_start", "lat", "lng", "city", "description", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identifiant unique de l'événement"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Titre de l'événement"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["atelier", "sortie", "spectacle", "autre"],
+      "description": "Catégorie de l'événement"
+    },
+    "date_start": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date et heure de début (ISO 8601)"
+    },
+    "date_end": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "description": "Date et heure de fin (ISO 8601), ou null si pas de fin définie"
+    },
+    "lat": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90,
+      "description": "Latitude (coordoonnée GPS)"
+    },
+    "lng": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180,
+      "description": "Longitude (coordonnée GPS)"
+    },
+    "city": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nom de la ville"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 280,
+      "description": "Description courte (max 280 caractères)"
+    },
+    "link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Lien externe (billetterie, page d'info), ou null"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["published", "draft"],
+      "description": "Statut de publication"
+    }
+  },
+  "additionalProperties": false
+}

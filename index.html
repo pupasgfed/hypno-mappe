@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carto Hypnose — Événements hypnose en France</title>
+    <meta name="description" content="Carte interactive des événements liés à l'hypnose en France : ateliers, sorties, spectacles." />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCfYx5T+cty3FY4/8q3y6Mc3w=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-mark">H</div>
+          <div class="brand-text">
+            <h1>Carto Hypnose</h1>
+            <p class="brand-sub">Événements hypnose en France</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <div class="view-toggle" id="view-toggle">
+            <button class="toggle-btn active" data-view="map">Carte</button>
+            <button class="toggle-btn" data-view="list">Liste</button>
+          </div>
+          <a href="/admin/" class="admin-link">Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="filter-bar" id="filter-bar">
+        <div class="filter-row">
+          <span class="filter-label">Catégories :</span>
+          <div class="category-chips" id="category-chips"></div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Période :</span>
+          <div class="period-toggle" id="period-toggle">
+            <button class="period-btn active" data-period="upcoming">À venir</button>
+            <button class="period-btn" data-period="week">Cette semaine</button>
+            <button class="period-btn" data-period="month">Ce mois</button>
+          </div>
+          <span class="result-count" id="result-count"></span>
+        </div>
+      </div>
+
+      <div class="map-container" id="map-container">
+        <div id="map"></div>
+        <div class="map-loading" id="map-loading">Chargement des événements…</div>
+      </div>
+
+      <div class="list-container hidden" id="list-container"></div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Carto Hypnose — Carte interactive des événements hypnose.</p>
+        <p>Données OpenStreetMap · <span id="footer-count">0</span> événements publiés</p>
+      </div>
+    </footer>
+
+    <div class="modal-overlay hidden" id="modal-overlay">
+      <div class="modal-card" id="modal-card"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

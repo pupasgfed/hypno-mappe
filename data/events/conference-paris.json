@@ -1,0 +1,13 @@
+{
+  "id": "evt-005",
+  "title": "Conférence: l'hypnose thérapeutique aujourd'hui",
+  "category": "autre",
+  "date_start": "2026-08-30T19:00:00+02:00",
+  "date_end": null,
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "city": "Paris",
+  "description": "Une conférence d'introduction à l'hypnose thérapeutique moderne, suivie d'un échange avec le public.",
+  "link": "https://example.com/conference-paris",
+  "status": "published"
+}

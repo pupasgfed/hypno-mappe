@@ -1,0 +1,13 @@
+{
+  "id": "evt-008",
+  "title": "Spectacle d'hypnose humoristique",
+  "category": "spectacle",
+  "date_start": "2026-09-20T21:00:00+02:00",
+  "date_end": "2026-09-20T23:00:00+02:00",
+  "lat": 48.1173,
+  "lng": -1.6778,
+  "city": "Rennes",
+  "description": "Hypnose et humour se mêlent pour un spectacle interactif et hilarant. Venez vous amuser !",
+  "link": "https://example.com/spectacle-rennes",
+  "status": "published"
+}

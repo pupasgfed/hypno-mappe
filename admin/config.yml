@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: owner/cartohypnose
+  branch: main
+  auth_type: oauth
+  app_id: ""
+
+local_backend: false
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "events"
+    label: "Événements"
+    label_singular: "Événement"
+    folder: "data/events"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    summary: "{{title}} — {{city}} ({{category}})"
+    fields:
+      - { name: "id", label: "ID", widget: "uuid", hint: "Identifiant unique généré automatiquement" }
+      - { name: "title", label: "Titre", widget: "string", hint: "Titre de l'événement" }
+      - name: "category"
+        label: "Catégorie"
+        widget: "select"
+        options:
+          - { label: "Atelier", value: "atelier" }
+          - { label: "Sortie", value: "sortie" }
+          - { label: "Spectacle", value: "spectacle" }
+          - { label: "Autre", value: "autre" }
+      - { name: "date_start", label: "Date de début", widget: "datetime", hint: "Date et heure de début de l'événement" }
+      - { name: "date_end", label: "Date de fin", widget: "datetime", required: false, hint: "Laisser vide si pas de fin définie" }
+      - { name: "lat", label: "Latitude", widget: "number", value_type: "float", hint: "Coordonnée GPS latitude (ex: 48.8566)" }
+      - { name: "lng", label: "Longitude", widget: "number", value_type: "float", hint: "Coordonnée GPS longitude (ex: 2.3522)" }
+      - { name: "city", label: "Ville", widget: "string" }
+      - { name: "description", label: "Description", widget: "text", hint: "Description courte, 280 caractères maximum", pattern: ['^.{1,280}$', "La description doit faire entre 1 et 280 caractères"] }
+      - { name: "link", label: "Lien externe", widget: "string", required: false, hint: "URL vers la billetterie ou la page d'info (optionnel)" }
+      - name: "status"
+        label: "Statut"
+        widget: "select"
+        default: "draft"
+        options:
+          - { label: "Brouillon", value: "draft" }
+          - { label: "Publié", value: "published" }

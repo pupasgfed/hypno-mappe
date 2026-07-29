@@ -1,0 +1,16 @@
+{
+  "name": "carto-hypnose",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Carte interactive des événements hypnose en France — statique, sans backend, admin via Decap CMS",
+  "scripts": {
+    "dev": "vite",
+    "build:geojson": "node scripts/build-geojson.js",
+    "build": "npm run build:geojson && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}

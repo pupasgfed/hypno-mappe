@@ -1,0 +1,13 @@
+{
+  "id": "evt-001",
+  "title": "Atelier d'initiation à l'hypnose ericksonienne",
+  "category": "atelier",
+  "date_start": "2026-08-15T14:00:00+02:00",
+  "date_end": "2026-08-15T17:00:00+02:00",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "city": "Paris",
+  "description": "Découvrez les bases de l'hypnose ericksonienne lors de cet atelier pratique ouvert à tous.",
+  "link": "https://example.com/atelier-paris",
+  "status": "published"
+}

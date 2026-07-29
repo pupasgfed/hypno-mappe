@@ -1,0 +1,13 @@
+{
+  "id": "evt-003",
+  "title": "Spectacle d'hypnose de scène - Le Grand Théâtre",
+  "category": "spectacle",
+  "date_start": "2026-09-05T20:30:00+02:00",
+  "date_end": "2026-09-05T22:30:00+02:00",
+  "lat": 45.764,
+  "lng": 4.8357,
+  "city": "Lyon",
+  "description": "Un spectacle envoûtant où le public devient la star. Réservez vos places dès maintenant.",
+  "link": "https://example.com/spectacle-lyon",
+  "status": "published"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "evt-007",
+  "title": "Sortie hypnose et méditation au bord du lac",
+  "category": "sortie",
+  "date_start": "2026-08-18T08:00:00+02:00",
+  "date_end": "2026-08-18T12:00:00+02:00",
+  "lat": 45.8992,
+  "lng": 6.1294,
+  "city": "Annecy",
+  "description": "Une matinée de méditation hypnotique au bord du lac d'Annecy pour se reconnecter à soi.",
+  "link": "https://example.com/sortie-annecy",
+  "status": "published"
+}

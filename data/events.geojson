@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5792,
+          44.8378
+        ]
+      },
+      "properties": {
+        "id": "evt-009",
+        "title": "Atelier de démonstration (brouillon)",
+        "category": "atelier",
+        "date_start": "2026-10-01T14:00:00+02:00",
+        "date_end": null,
+        "city": "Bordeaux",
+        "description": "Cet événement est un brouillon et ne doit pas apparaître sur la carte publique.",
+        "link": null,
+        "status": "draft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": "evt-001",
+        "title": "Atelier d'initiation à l'hypnose ericksonienne",
+        "category": "atelier",
+        "date_start": "2026-08-15T14:00:00+02:00",
+        "date_end": "2026-08-15T17:00:00+02:00",
+        "city": "Paris",
+        "description": "Découvrez les bases de l'hypnose ericksonienne lors de cet atelier pratique ouvert à tous.",
+        "link": "https://example.com/atelier-paris",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5536,
+          47.2184
+        ]
+      },
+      "properties": {
+        "id": "evt-006",
+        "title": "Atelier régression en hypnose",
+        "category": "atelier",
+        "date_start": "2026-09-12T10:00:00+02:00",
+        "date_end": "2026-09-12T13:00:00+02:00",
+        "city": "Nantes",
+        "description": "Explorez vos mémoires par la régression hypnotique dans un cadre sécurisé et bienveillant.",
+        "link": "https://example.com/atelier-nantes",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3698,
+          43.2965
+        ]
+      },
+      "properties": {
+        "id": "evt-004",
+        "title": "Atelier auto-hypnose pour le sommeil",
+        "category": "atelier",
+        "date_start": "2026-08-10T18:00:00+02:00",
+        "date_end": "2026-08-10T20:00:00+02:00",
+        "city": "Marseille",
+        "description": "Apprenez des techniques d'auto-hypnose pour retrouver un sommeil naturel et réparateur.",
+        "link": "https://example.com/atelier-marseille",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": "evt-005",
+        "title": "Conférence: l'hypnose thérapeutique aujourd'hui",
+        "category": "autre",
+        "date_start": "2026-08-30T19:00:00+02:00",
+        "date_end": null,
+        "city": "Paris",
+        "description": "Une conférence d'introduction à l'hypnose thérapeutique moderne, suivie d'un échange avec le public.",
+        "link": "https://example.com/conference-paris",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1294,
+          45.8992
+        ]
+      },
+      "properties": {
+        "id": "evt-007",
+        "title": "Sortie hypnose et méditation au bord du lac",
+        "category": "sortie",
+        "date_start": "2026-08-18T08:00:00+02:00",
+        "date_end": "2026-08-18T12:00:00+02:00",
+        "city": "Annecy",
+        "description": "Une matinée de méditation hypnotique au bord du lac d'Annecy pour se reconnecter à soi.",
+        "link": "https://example.com/sortie-annecy",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7019,
+          48.4047
+        ]
+      },
+      "properties": {
+        "id": "evt-002",
+        "title": "Sortie nature en transe - Forêt de Fontainebleau",
+        "category": "sortie",
+        "date_start": "2026-08-22T09:00:00+02:00",
+        "date_end": "2026-08-22T16:00:00+02:00",
+        "city": "Fontainebleau",
+        "description": "Une journée immersive en forêt pour expérimenter la transe hypnotique en pleine nature.",
+        "link": "https://example.com/sortie-fontainebleau",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8357,
+          45.764
+        ]
+      },
+      "properties": {
+        "id": "evt-003",
+        "title": "Spectacle d'hypnose de scène - Le Grand Théâtre",
+        "category": "spectacle",
+        "date_start": "2026-09-05T20:30:00+02:00",
+        "date_end": "2026-09-05T22:30:00+02:00",
+        "city": "Lyon",
+        "description": "Un spectacle envoûtant où le public devient la star. Réservez vos places dès maintenant.",
+        "link": "https://example.com/spectacle-lyon",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6778,
+          48.1173
+        ]
+      },
+      "properties": {
+        "id": "evt-008",
+        "title": "Spectacle d'hypnose humoristique",
+        "category": "spectacle",
+        "date_start": "2026-09-20T21:00:00+02:00",
+        "date_end": "2026-09-20T23:00:00+02:00",
+        "city": "Rennes",
+        "description": "Hypnose et humour se mêlent pour un spectacle interactif et hilarant. Venez vous amuser !",
+        "link": "https://example.com/spectacle-rennes",
+        "status": "published"
+      }
+    }
+  ]
+}

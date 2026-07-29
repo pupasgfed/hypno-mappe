@@ -1,0 +1,13 @@
+{
+  "id": "evt-009",
+  "title": "Atelier de démonstration (brouillon)",
+  "category": "atelier",
+  "date_start": "2026-10-01T14:00:00+02:00",
+  "date_end": null,
+  "lat": 44.8378,
+  "lng": -0.5792,
+  "city": "Bordeaux",
+  "description": "Cet événement est un brouillon et ne doit pas apparaître sur la carte publique.",
+  "link": null,
+  "status": "draft"
+}
