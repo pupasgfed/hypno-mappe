@@ -5,7 +5,7 @@
 
 export async function loadEvents() {
   try {
-    const res = await fetch('/data/events.geojson');
+    const res = await fetch('./data/events.geojson');
     if (!res.ok) {
       throw new Error(`HTTP ${res.status}`);
     }

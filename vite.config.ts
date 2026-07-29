@@ -22,6 +22,7 @@ function copyStaticDirs() {
 
 export default defineConfig({
   root: '.',
+  base: './',
   publicDir: 'public',
   build: {
     outDir: 'dist',
