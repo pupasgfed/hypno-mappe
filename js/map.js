@@ -32,6 +32,8 @@ export function initMap() {
   });
   clusterGroup.addTo(map);
 
+  setTimeout(() => map.invalidateSize(), 200);
+
   return map;
 }
 
