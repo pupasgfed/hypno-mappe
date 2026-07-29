@@ -115,13 +115,6 @@ export function renderMarkers(events, onSelectCallback) {
     markers.push(marker);
   }
   clusterGroup.addLayers(markers);
-
-  if (markers.length > 0) {
-    const bounds = clusterGroup.getBounds();
-    if (bounds.isValid()) {
-      map.fitBounds(bounds.pad(0.1));
-    }
-  }
 }
 
 export function invalidateMapSize() {
